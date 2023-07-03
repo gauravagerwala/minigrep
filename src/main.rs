@@ -4,9 +4,7 @@ use std::process;
 use minigrep::Config;
 
 fn main() {
-    let args: Vec<String> = env::args().collect();
-
-    let config_result = Config::build(&args);
+    let config_result = Config::build(env::args());
 
     let config = match config_result {
         Ok(config) => config,
