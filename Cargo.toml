@@ -1,9 +1,12 @@
 [package]
-name = "minigrep-gaurav"
+name = "minigrep_learn"
 version = "0.1.0"
 edition = "2021"
 description = "This is a command line tool similar to grep written in rust. It was created to learn the Rust language and it's toolchain."
 license = "MIT"
+repository = "https://github.com/gauravagerwala/minigrep.git"
+homepage = "https://github.com/gauravagerwala/minigrep.git"
+authors = ["gauravagerwala <gauravagerwala@gmail.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

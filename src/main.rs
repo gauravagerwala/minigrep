@@ -1,7 +1,7 @@
 use std::env;
 use std::process;
 
-use minigrep::Config;
+use minigrep_learn::Config;
 
 fn main() {
     let config_result = Config::build(env::args());
@@ -14,7 +14,7 @@ fn main() {
         }
     };
 
-    if let Err(err) = minigrep::run(config) {
+    if let Err(err) = minigrep_learn::run(config) {
         eprintln!("Application error: {err}");
         process::exit(1);
     }

@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "minigrep-gaurav"
+name = "minigrep_learn"
 version = "0.1.0"
